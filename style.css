@@ -294,7 +294,7 @@ a {
 
 .button_primary {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 15px 45px;
     gap: 10px;
@@ -310,6 +310,7 @@ a {
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
+    justify-content: space-between;
 }
 
 .button_meet_the_rest {
